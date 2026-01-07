@@ -1,0 +1,15 @@
+[📙] - Controller:
+    Start all modules in game based in tags, only if u need a module.
+    Exemple: If u want a "ModuleCoins" in another module started in Controller. Only add:
+     'self.ModuleCoins' for a fast require module, this module as required single time.
+     'ModulesCoins' need a tag named "Module" for game search.
+
+[📙] - Storage:
+    Collect all game instances by tags, and open all connections configured in 'self.configs'.
+
+
+Repeater - > Repeat side functions in loop, control by time, loops are separeted by times.
+
+
+DetectorService - >
+

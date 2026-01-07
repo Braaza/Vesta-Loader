@@ -1,0 +1,20 @@
+{
+  "name": "VestaLoader",
+
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Modules": {
+        "$className": "Folder",
+        "$path": "src/modules"
+      }
+    },
+    
+    "ServerScriptService": {
+      "Controller": {
+        "$path": "src/server"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+[files]
+include = ["src/**/*.lua"] # ou .luau
+ignore = ["node_modules"]
+
+[diagnostics]
+unnecessary_semicolons = false
